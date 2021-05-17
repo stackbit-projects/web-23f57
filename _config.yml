@@ -1,0 +1,41 @@
+title: Hello. I'm Jami Gibbs.
+email: jami0821@gmail.com
+description: >-
+  I'm a software developer and designer from Chicago creating useful things for
+  the web.
+baseurl: ''
+url: ''
+twitter_username: jamigibbs
+github_username: jamigibbs
+medium_username: blog.jamigibbs.com
+markdown: kramdown
+plugins:
+  - jekyll-paginate-v2
+pagination:
+  enabled: true
+  debug: false
+  collection: posts
+  per_page: 10
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  limit: 0
+  sort_field: date
+  sort_reverse: true
+  category: posts
+  tag: ''
+  locale: ''
+  trail:
+    before: 2
+    after: 2
+  extension: html
+  indexpage: index
+footer_text: © 2018 Jami Gibbs
+admin_name: Jami Gibbs
+google_analytics: UA-9999999-99
+enable_contact: false
+enable_nav: true
+nav_item:
+  - url: /
+    text: Home
+  - url: /about
+    text: About

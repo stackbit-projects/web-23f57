@@ -1,0 +1,47 @@
+stackbitVersion: ~0.3.0
+ssgName: jekyll
+publishDir: _site
+dataDir: _data
+pagesDir: ''
+models:
+  page_1:
+    type: page
+    label: Page 1
+    match: '**/*'
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: position
+        label: Position
+      - type: string
+        name: title
+        label: Title
+      - type: datetime
+        name: date
+        label: Date
+      - type: string
+        name: categories
+        label: Categories
+      - type: string
+        name: tags
+        label: Tags
+      - type: image
+        name: featured_image
+        label: Featured Image
+      - type: string
+        name: project_link
+        label: Project Link
+      - type: string
+        name: button_icon
+        label: Button Icon
+      - type: string
+        name: button_text
+        label: Button Text
+      - type: string
+        name: lead_text
+        label: Lead Text
+      - type: string
+        name: permalink
+        label: Permalink
